@@ -477,12 +477,20 @@ input:checked + .slider:before {
 }
 
 
-
-
 .Countdonw_Div{
     font-family: "Share Tech Mono", sans-serif;
 }
 
 .fuente{
     font-size: 10%;
+}
+
+#hours{
+    width: 3em
+}
+#minutes{
+    width: 3em
+}
+#seconds{
+    width: 3em
 }

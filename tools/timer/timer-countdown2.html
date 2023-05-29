@@ -21,7 +21,16 @@
         </label>
     </nav>
 </header>
-<h1 class="title">Time to Finish T2F</h1>
+<h1 class="title">Alarm</h1>
+<div class="countdonw" id="countdown">00h:00m:00s</div>
+<br></br>
+<div class="currenttime" id="current-time"></div>
+<br>
+    <div>
+    <button class="timer-buttons" id="pause-button" onclick="pauseCountdown()">PAUSE</button>
+    <button class="timer-buttons" id="play-button" onclick="startCountdown()">PLAY</button>
+    <button class="timer-buttons" id="restart-button" onclick="restartCountdown()">RESTART</button>
+    </div>
 <div class="fecha_incio">
   <label>Fecha y hora de inicio:</label>
   <input class="datetime-input" type="datetime-local" id="datetime-input">
@@ -34,16 +43,7 @@
           <option value="Respect.mp3" src="../../tools/timer/Respect.mp3">Respect, Aretha Franklin</option>
           <option value="Smells_Like_Teen_Spirit.mp3" src="../../tools/timer/Smells_Like_Teen_Spirit.mp3">Smells Like Teen Spirit, Nirvana</option>
 </select>
-<br><br>
-<div class="countdonw" id="countdown">00h:00m:00s</div>
-<br></br>
-<div class="currenttime" id="current-time"></div>
-<br>
-    <div>
-    <button class="timer-buttons" id="pause-button" onclick="pauseCountdown()">PAUSE</button>
-    <button class="timer-buttons" id="play-button" onclick="startCountdown()">PLAY</button>
-    <button class="timer-buttons" id="restart-button" onclick="restartCountdown()">RESTART</button>
-    </div>
+
 </body>
 <script src="../../JS/darkMode.js"></script>
 <script src="../../JS/timer/forTimer-countdown2.js"></script>
