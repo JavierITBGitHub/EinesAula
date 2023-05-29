@@ -3,11 +3,17 @@
     Free FONTS
     https://www.onlinewebfonts.com/fonts
 
-    Digital
+    Font Digital
     https://www.onlinewebfonts.com/download/84cb021d5f9af287ffff84b61beef6dc
+
+    Es pot fer servir online o descarregar
+    @import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
 */
 
-@import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
+@font-face{
+ font-family:'clockicons';
+ src: url('../font/clockicons.ttf');
+}
 
 #horaActual {
 font-family: 'clockicons', sans-serif;

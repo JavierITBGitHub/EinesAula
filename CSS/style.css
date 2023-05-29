@@ -143,6 +143,17 @@ li:nth-child(7) {
     margin-top: 2%;
     border-radius: 2px;}
 
+.menu_opc_actual{
+    text-decoration: none;
+    padding-top: 5%;
+    color: blue;
+    font-weight:bold;
+    font-size: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 2px;}
+
 .menu_opc_last{
     text-decoration: none;
     padding-top: 5%;
@@ -178,7 +189,6 @@ li:nth-child(7) {
     padding-bottom: 2%;}
 
 .titulo_herramientas:hover{ color: dodgerblue; }
-
 
 /*******TRY*********/
 #countdown-container {
@@ -471,4 +481,8 @@ input:checked + .slider:before {
 
 .Countdonw_Div{
     font-family: "Share Tech Mono", sans-serif;
+}
+
+.fuente{
+    font-size: 10%;
 }
