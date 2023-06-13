@@ -19,7 +19,7 @@ function actualizaReloj(){
         horaImprimible = hora + " : " + minuto + " : " + segundo
 
         document.title = horaImprimible
-        horaActual.innerHTML= horaImprimible
+        document.getElementById("horaActual").innerHTML= horaImprimible;
 
         setTimeout("actualizaReloj()",1000)
 }
